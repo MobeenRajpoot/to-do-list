@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.task-container {
+    width: 355px;
+    background-color: #fff;
+    height: 65px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#task-input {
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 17px;
+    outline-color: blueviolet;
+    flex: 6;
+    border: 2px solid black;
+}
+
+button {
+    flex: 1;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+
+/* Javascript Styling */
+
+.task {
+    width: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 5px 7px;
+    font-size: 17px;
+    box-shadow: 0 0 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-item {
+    list-style: none;
+    width: 65%;
+    overflow: hidden;
+}
+
+.check-box {
+    background-color: white;
+    color: orange;
+    border-color: orange;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.check-box:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.trash-can {
+    color: red;
+    border-color: red;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.trash-can:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 2px;
+}
+
+.heart {
+    color: red;
+}
+
+.credit {
+    color: crimson;
+    font-weight: 500;
+    transition: all .3s;
+}
+
+.credit:hover {
+    color: blueviolet;
+    text-decoration: none;
+}
